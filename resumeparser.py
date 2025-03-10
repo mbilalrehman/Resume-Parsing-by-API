@@ -42,7 +42,7 @@ def ats_extractor(resume_text):
     - **Do not include any explanations or markdown formatting**.
     """
 
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('models/gemini-1.5-pro')
     response = model.generate_content([prompt, resume_text])
 
     raw_text = response.text.strip()
