@@ -26,7 +26,7 @@ Just upload your resume in pdf format, and see for yourself :)
 
 1. Clone the repository to your local machine
 2. Navigate to the project directory
-3. Install all the required libraries (just run pip install -r /path/to/requirements.txt (and) pip install flask pyresparser pdfminer.six docx2txt nltk spacy)
+3. Install all the required libraries (just run pip install -r /path/to/requirements.txt (and) pip install python-docx pyyaml)
 4. Provide your Open AI API key in the .yaml file
 5. Run the following command to start the chatbot -
 
